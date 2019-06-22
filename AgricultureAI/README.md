@@ -1,5 +1,7 @@
 超大分辨率图片读取模块：openslide
+
 **一共分为两步：**
+
 **1.** 先安装openslide二进制文件，位于http://openslide.org/download/；
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190620102600621.png)
 下载64-bit后解压，文件夹中有一个bin目录，记下这bin目录的地址。
