@@ -2,6 +2,6 @@
 
 ## 绘图
 
-images_info_vision
+src/images_info_vision
 
 ![](./images/wh.png)
