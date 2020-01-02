@@ -6,40 +6,8 @@ src/images_info_vision
 
 ![](./images/wh.png)
 
-
+![](./images/wh2.png)
 
 公众号持续更新：DLCV
 
 ![](./images/DLCV.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
