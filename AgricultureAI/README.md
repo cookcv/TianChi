@@ -1,8 +1,8 @@
 超大分辨率图片读取模块：openslide
 
-**一共分为两步：**
+**windows安装一共分为两步：**
 
-**1.** 先安装openslide二进制文件，位于http://openslide.org/download/；
+**1.** windows先安装openslide二进制文件，位于http://openslide.org/download/；
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190620102600621.png)
 下载64-bit后解压，文件夹中有一个bin目录，记下这bin目录的地址。
 
@@ -17,14 +17,33 @@ os.environ['PATH'] = "F:/openslide-win64-20171122/bin/" + ";" + os.environ['PATH
 使得该文件可以找到步骤1中得到的bin目录文件。
 运行python lowlevel.py不报错则成功。
 
-**后续：** 当图片中得像素点达到PIL中设定得阈值后，将会报错，所以需要修改一下阈值。当然，内存大小才是硬伤。
+
+
+## linux安装
 
 ```
+# linux安装比较简单
+sudo apt-get install openslide-tools
+
+sudo apt-get install python-openslide
+
+进入虚拟环境
+
+pip install openslide-python
+
+import openslide
+```
+
+
+
+## 使用
+
+```
+#当图片中得像素点达到PIL中设定得阈值后，将会报错，所以需要修改一下阈值。
+
 from PIL import Image
 Image.MAX_IMAGE_PIXELS = 3000000000
 ```
-
-## 使用
 
 ```
 import openslide
