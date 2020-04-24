@@ -8,6 +8,6 @@ src/images_info_vision
 
 ![](./images/wh2.png)
 
-公众号持续更新：DLCV
+公众号持续更新：深度学习视觉
 
 ![](./images/DLCV.jpg)
